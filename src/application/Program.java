@@ -37,7 +37,7 @@ public class Program {
             double valorHora = sc.nextDouble();
             System.out.print("Duração (horas): ");
             int horas = sc.nextInt();
-            Contrato contrato = new Contrato(dataContrato, valorHora, horas); //apos pegar todos os dados necessario do contrato, instaciei o contrato
+            Contrato contrato = new Contrato(dataContrato, valorHora, horas); //apos pegar todos os dados necessario do contrato, instanciei o objeto Contrato
             colaborador.addContrato(contrato);  //chamada do metodo que adiciona o contrato na lista de contratos do colaborador
         }
         System.out.println();
